@@ -25,3 +25,9 @@ a:hover{
 .about{
     border: dashed red;
 }
+.container-ava{
+margin-top: 20px;
+}
+.ava{
+    width: 250px;
+}
