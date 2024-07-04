@@ -31,3 +31,44 @@ margin-top: 20px;
 .ava{
     width: 250px;
 }
+.me{
+    
+}
+.sect{
+    text-align: center;
+}
+.hr{
+
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    }
+.sub{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.par{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.codex{
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 20px 10px 5px 5px rgba(0, 0, 0, 0.2);;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+.btn-btn-outline-secondary:hover{
+    opacity: 0.7;
+    font-size: 30px;
+}
+.btn-btn-outline-secondary{
+    opacity: 1;
+    transition: 0.8s;
+}

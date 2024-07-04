@@ -11,15 +11,15 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    >
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erlan Rahmankulov CV</title>
   </head>
   <body style="height: 5000px">
     <div class="container">
-      <header class="header">
+      <header id="main" class="header">
         <h1
           style="
             color: rgb(0, 0, 0);
@@ -29,17 +29,17 @@
           class="header-brand"
           id="header-brand"
         >
-          Erlan Rahmankulov
+          Erlan Rahmankulov CV
         </h1>
         <nav>
           <ul>
-            <li class="nav"><a href="#">About me</a></li>
-            <li class="nav"><a href="#">Skills</a></li>
-            <li class="nav"><a href="#">Strengths</a></li>
-            <li class="nav"><a href="#">Code</a></li>
-            <li class="nav"><a href="#">Projects</a></li>
-            <li class="nav"><a href="#">Contact</a></li>
-            <li class="nav"><a href="#">Education</a></li>
+            <li class="nav"><a href="#About">About me</a></li>
+            <li class="nav"><a href="#Skills">Skills</a></li>
+            <li class="nav"><a href="#Strengths">Strengths</a></li>
+            <li class="nav"><a href="#Code">Code</a></li>
+            <li class="nav"><a href="#Projects">Projects</a></li>
+            <li class="nav"><a href="#Contact">Contact</a></li>
+            <li class="nav"><a href="#Education">Education</a></li>
           </ul>
         </nav>
       </header>
@@ -47,31 +47,104 @@
     <main>
 <div class="container-ava container">
   <div class="row">
-<img class="ava" src="img/ErkAim.jpg" alt="...">
-<section class="About">
-<p></p>
+      <img class="ava" src="img/ErkAim.jpg" alt="Just avatar...">
+  </div>
+  <hr class="hr">
+<section class="sect" id="About">
+  <h2 class="sub">About me</h2>
+  <hr class="hr">
+<p class="par">My name is Rahmankulov Erlan, I am 17 years old and I am a student,<br> I study in college on web designer, since childhood I was fond of computers, remote work,<br> always wanted to get into the field of programmers and now I want,<br> even trying to get into this.</p>
+<hr class="hr">
 </section>
-</div>
 </div>
 <div class="container">
-<section class="Skills">
-
+<section class="sect" id="Skills">
+  <h2 class="sub">Skills</h2>
+  <hr class="hr">
+  <div>
+<ol>
+  <li class="par"><a href="https://en.wikipedia.org/wiki/HTML"><b>HTML/CSS</b>(Basic knowledge)</a></li>
+  <li class="par"><a href="https://en.wikipedia.org/wiki/Visual_Studio_Code"><b>VisualStudioCode</b>(Basic knowledge)</a></li>
+  <li class="par"><a href="https://en.wikipedia.org/wiki/Git"><b>Git</b>(Basic knowledge)</a></li>
+  <li class="par"><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"><b>bootstrap</b>(Basic knowledge)</a></li>
+</ol>
+</div>
+<a href="#About" type="button" class="btn btn-outline-secondary">Top  ↑</a>
+  <hr class="hr">
 </section>
-<section class="Strengths">
-
+<section class="sect" id="Strengths">
+  <h2 class="sub">Strengths</h2>
+  <hr class="hr">
+  <ol>
+    <li class="par">Emotional stability.</li>
+    <li class="par">Concentration.</li>
+    <li class="par">Continuous learning.</li>
+    <li class="par">Attention and observation.</li>
+    <li class="par">Creativity.</li>
+  </ol>
+  <a href="#Skills" type="button" class="btn btn-outline-secondary">Top  ↑</a>
+  <hr class="hr">
 </section>
-<section class="Code">
-
+<section class="sect" id="Code">
+  <h2 class="sub">Code</h2>
+  <hr class="hr">
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-4 codex"><pre>class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+            // Hello World!
+        }
+    }</pre></div>
+      <div class="col-md-4 codex"><pre>class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+            // Hello World!
+        }
+    }</pre></div>
+      <div class="col-md-4 codex"><pre>class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+            // Hello World!
+        }
+    }</pre></div>
+    </div>
+  </div>
+  <a href="#Strengths" type="button" class="btn btn-outline-secondary">Top  ↑</a>
+  <hr class="hr">
 </section>
-<section class="Projects">
-
+<section class="sect" id="Projects">
+  <h2 class="sub">Projects</h2>
+  <hr class="hr">
+  <p class="par">Not yet, but soon...</p>
+  <a href="#Code" type="button" class="btn btn-outline-secondary">Top  ↑</a>
+  <hr>
 </section>
-<section class="Contact">
-
+<section class="sect" id="Contact">
+  <h2 class="sub-contact">Contact</h2>
+  <hr class="hr">
+  <ul class="marker">
+  <li class="underline"><a href="#">Phone Number: +996 777 30 44 43</a></li>
+  <li class="underline"><a href="#">Telegramm: @Skillzi4ek</a></li>
+  <li class="underline"><a href="#">Discord: @Skillzi4ek</a></li>
+  <li class="underline"><a href="https://github.com/Skillzik">Github: @Skillzik</a></li>
+  </ul>
+  <a href="#Contact"  type="button" class="btn btn-outline-secondary">Top  ↑</a>
+  <hr class="hr">
 </section>
-<section class="Education">
-
+<section class="sect" id="Education">
+  <h2 class="sub">Education</h2>
+  <hr class="hr">
+  <p class="par">College @KEDIS.KG, Bishkek (2024)</p>
+  <hr class="hr">
 </section>
+<section class="sect" id="EngLevel">
+  <h2 class="sub">English Level</h2>
+  <hr class="hr">
+  <p class="par">A2</p>
+  <hr class="hr">
+</section>
+</div>
     </main>
     <footer>
 
