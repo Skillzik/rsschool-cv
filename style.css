@@ -116,3 +116,8 @@ margin-top: 20px;
   .skills{
     padding: 20px;
   }
+  .container-ava{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
